@@ -248,7 +248,6 @@ istream & operator>>(istream & in, Maze & maze) {
 				if (i == 0 || j == 0) {
 					maze.iEntry = i;
 					maze.jEntry = j;
-					cout << maze.iEntry << " " << maze.jEntry << endl;
 				}
 				if (i == maze.height - 1 || j == maze.width - 1) {
 					maze.iExit = i;

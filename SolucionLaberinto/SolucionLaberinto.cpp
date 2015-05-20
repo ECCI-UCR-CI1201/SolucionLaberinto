@@ -35,6 +35,8 @@ int _tmain(int argc, _TCHAR* argv[]) {
 
 	cout << "END" << endl;
 
+	system("pause");
+
 	return 0;
 }
 
